@@ -31,5 +31,15 @@ $(document).ready(
             //show smiley face
             $('.smiley').fadeIn('fast', 'linear', () => console.info('correct answers selected!!'))
         })
+
+        //reset card
+        $('.reset').on('click', () => {
+            for(let $wrongAnswer of $wrongAnswers){
+                $(`${$wrongAnswer} .answer-text`).show()
+                $($wrongAnswer).slideDown()
+            }
+            $('.smiley').hide()
+            $('.frown').hide()
+        })
     }
 )
