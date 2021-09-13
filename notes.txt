@@ -7,3 +7,9 @@ You will add a few different effects. A hint box will slide up and down. When yo
 it will fade away and a frowny face will appear. When you click the correct answer, the frowny face will disappear and a smiley face will take its place.
 
 To complete this project, you must know how to target HTML elements in jQuery, how to create event handlers, and how to use several jQuery Effects methods.
+
+FUTURE CHALLENGES
+.................
+1. Add a button to reset the quiz and make the wrong answers reappear?
+2. Make a new question to appear after getting a question correct?
+3. Use arrays to set up a quiz with multiple questions?
